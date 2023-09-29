@@ -16,7 +16,7 @@ const MenuItem = ({ title, target }: TMenuItem) => {
           to={target}
           smooth="true"
           duration={1000}
-          offset={0}
+          offset={-54}
           className="flex flex-col justify-center h-8 py-8 px-4 hover:text-grey-6 hover:bg-brand-6 transition-colors delay-75 rounded-lg "
           onClick={() => setMenu(false)}
         >
@@ -27,7 +27,7 @@ const MenuItem = ({ title, target }: TMenuItem) => {
           to={target}
           smooth="true"
           duration={1000}
-          offset={0}
+          offset={-54}
           className="relative group"
         >
           <span className="text-grey-5">{title}</span>
