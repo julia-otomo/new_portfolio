@@ -21,6 +21,22 @@ export default {
         "brand-6": "#181140",
         "brand-7": "#2B2D42",
       },
+      animation: {
+        gradient: "gradientAnimation 4s ease infinite",
+      },
+      keyframes: {
+        gradientAnimation: {
+          "0%": {
+            "background-size": "200%",
+            backgroundPosition: "0% 50%",
+          },
+          "50%": { backgroundPosition: "100% 50%", "background-size": "200%" },
+          "100%": {
+            "background-size": "200%",
+            backgroundPosition: "0% 50%",
+          },
+        },
+      },
     },
   },
   plugins: [],
